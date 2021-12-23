@@ -27,7 +27,7 @@ const LineChart = () => {
   const [chart, setChart] = useState({})
   var baseUrl = "https://api.coinranking.com/v2/coins/?limit=10";
   var proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+  var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 
 
