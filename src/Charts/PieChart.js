@@ -12,7 +12,8 @@ const PieChart = () => {
   const [chart, setChart] = useState({})
   var baseUrl = "https://api.coinranking.com/v2/coins/?limit=10";
   var proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  var apiKey = "coinrankingc032026f93e3b94c047c89523ca837327c4dac81e1070686";
+  var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
 
 
   useEffect(() => {

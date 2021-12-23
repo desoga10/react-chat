@@ -1,23 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import {
   Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
+
   BarElement,
-  Title,
-  Tooltip,
-  Legend,
+
 } from 'chart.js';
 
 import { Bar } from 'react-chartjs-2';
 
 ChartJS.register(
-  CategoryScale,
-  LinearScale,
   BarElement,
-  Title,
-  Tooltip,
-  Legend
 );
 
 
@@ -25,7 +17,7 @@ const BarChart = () => {
   const [chart, setChart] = useState({})
   var baseUrl = "https://api.coinranking.com/v2/coins/?limit=10";
   var proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  var apiKey = "coinrankingc032026f93e3b94c047c89523ca837327c4dac81e1070686";
+  var apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 
   useEffect(() => {
